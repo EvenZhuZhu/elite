@@ -1,0 +1,182 @@
+/*---------------头部 全部分类-------------*/
+header {
+  width: 100%;
+  height: 1rem;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+header .left {
+  width: 0.94rem;
+  height: 100%;
+  float: left;
+  background: url("../images/return_botton.png") no-repeat center center;
+  background-size: 0.23rem 0.41rem;
+}
+
+header .left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header .right {
+  height: 100%;
+  margin-left: 0.94rem;
+}
+
+header .right p {
+  height: 100%;
+  line-height: 1rem;
+  font-size: 0.36rem;
+  text-align: center;
+  text-indent: -0.94rem;
+}
+
+/*---------------全部商标分类-------------*/
+.hot {
+  background-color: #fff;
+}
+
+/*标题*/
+.hot .left {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.hot .left h1 {
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+
+.hot .right {
+  float: right;
+}
+
+.hot .right span {
+  display: block;
+  width: 2rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.26rem;
+  color: #3069b8;
+}
+
+/*列表*/
+.hot .hot-list {
+  overflow: hidden;
+}
+
+.hot .hot-list ul li {
+  width: 33%;
+  height: 2.14rem;
+  background: url("../images/pro.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+  box-sizing: border-box;
+  
+}
+
+/*----------------全部商标分类列表------------------*/
+.content {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.8rem;
+}
+
+.content .all {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.content .all:after {
+  content: "";
+  clear: both;
+  line-height: 0;
+  display: block;
+  height: 0;
+}
+
+.content .all li:nth-child(1) {
+  background: url(../images/allclass/all1.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(2) {
+  background: url(../images/allclass/all2.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(3) {
+  background: url(../images/allclass/all3.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(4) {
+  background: url(../images/allclass/all4.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(5) {
+  background: url(../images/allclass/all5.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(6) {
+  background: url(../images/allclass/all6.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(7) {
+  background: url(../images/allclass/all7.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(8) {
+  background: url(../images/allclass/all8.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li:nth-child(9) {
+  background: url(../images/allclass/all9.png) no-repeat;
+  background-size: 0.81rem 0.81rem;
+  background-position: center 0.43rem;
+}
+
+.content .all li {
+  width: 33.1%;
+  height: 2.15rem;
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  float: left;
+  position: relative;
+}
+
+.content .all li a {
+  display: inline-block;
+  width: 100%;
+  height: 1.15rem;
+  padding-top: 1rem;
+  font-size: 0.27rem;
+  color: #585858;
+  text-align: center;
+}
+
+.content .all li.color {
+  background-color: #f5f5f5;
+}
+
+.content .all li:nth-of-type(3n) {
+  border-right: none;
+}

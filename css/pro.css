@@ -1,0 +1,269 @@
+/*--------------头部搜索栏-------------*/
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background-color: #fff;
+}
+
+header .left {
+  width: 0.94rem;
+  height: 100%;
+  float: left;
+  background: url("../images/return_botton.png") no-repeat center center;
+  background-size: 0.23rem 0.41rem;
+}
+
+header .right {
+  width: 0.94rem;
+  height: 100%;
+  float: right;
+  background: url("../images/news.png") no-repeat center center;
+  background-size: 0.48rem 0.45rem;
+}
+
+header .tishi {
+  display: none;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.08rem;
+  margin: auto;
+  width: 1.99rem;
+  height: 3.06rem;
+  background: url("../images/tishi.png") no-repeat;
+  background-size: 1.99rem 3.06rem;
+  padding-top: 0.16rem;
+  z-index: 88888;
+}
+
+header .tishi.block {
+  display: block;
+}
+
+header .tishi li {
+  width: 100%;
+  height: 0.7rem;
+  position: relative;
+}
+
+header .tishi li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.28rem;
+  color: #fff;
+}
+
+header .center {
+  height: 100%;
+  margin: 0 0.94rem;
+  position: relative;
+}
+
+header .center p {
+  line-height: 1rem;
+  font-size: 0.34rem;
+}
+
+/*--------------综合 人气 删选--------------*/
+.zhrqsx .list {
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  height: 0.9rem;
+  position: relative;
+  border-bottom: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 0.1rem;
+  box-sizing: border-box;
+}
+
+.zhrqsx .list .inner {
+  display: none;
+  position: absolute;
+  top: 0.78rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 3.5rem;
+  background: #fff;
+}
+
+.zhrqsx .list li {
+  width: 33.33%;
+  height: 0.4rem;
+  float: left;
+  margin-top: 0.1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.zhrqsx .list li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #7b7b7b;
+}
+
+.zhrqsx .list li.active a{
+  color: red;
+}
+
+.zhrqsx .list li.t3 {
+  background: url(../images/sx-2.png) no-repeat 70% 50%;
+  background-size: 0.15rem 0.19rem;
+}
+
+.zhrqsx .list li.t3.t3-1 {
+  background: url(../images/sx-1.png) no-repeat 70% 50%;
+  background-size: 0.15rem 0.19rem;
+}
+
+.zhrqsx .list li.last a {
+  text-align: center;
+  padding-right: 0.3rem;
+}
+
+/*----------------按页码搜索---------------*/
+.pageSearch {
+  overflow: hidden;
+  height: 0.85rem;
+  background-color: #fff;
+  padding-left: 0.4rem;
+  position: relative;
+  font-size: 0.26rem;
+}
+
+.pageSearch p {
+  height: 100%;
+  line-height: 0.85rem;
+  float: left;
+  color: #ababab;
+}
+
+.pageSearch p #num, #totalPage {
+  padding: 0 0.1rem;
+}
+
+.pageSearch p #num {
+  color: #f95c5e;
+}
+
+.pageSearch p #getPage {
+  width: 0.9rem;
+  height: 0.48rem;
+  padding: 0.1rem 0.4rem;
+  border: 0.01rem solid #ababab;
+  margin: 0rem 0.08rem;
+}
+
+.pageSearch #btn {
+  width: 0.82rem;
+  height: 0.5rem;
+  font-size: 0.26rem;
+  background-color: #ababab;
+  border: none;
+  position: absolute;
+  top: 0.18rem;
+  right: 0.28rem;
+  color: #ffffff;
+  border-radius: 0.05rem;
+  outline: none;
+}
+
+/*------------------商品列表---------------*/
+section .list {
+  overflow: hidden;
+  padding: 0.1rem 0.2rem 0.46rem 0.2rem;
+  background-color: #f5f5f5;
+}
+
+section .list li {
+  padding-bottom: 0.1rem;
+}
+
+section .list li:nth-child(odd) {
+  float: left;
+}
+
+section .list li:nth-child(even) {
+  float: right;
+}
+
+section .list li div {
+  width: 3.4rem;
+  border: 0.01rem solid #e3e0e0;
+  background-color: #fff;
+}
+
+section .list li a img {
+  width: 3.4rem;
+  height: 1.86rem;
+}
+
+section .list li a h2 {
+  height: 0.64rem;
+  line-height: 0.64rem;
+  margin-top: -0.64rem;
+  color: #000;
+  font-size: 0.3rem;
+  font-weight: normal;
+  padding-left: 0.1rem;
+}
+
+section .list li a .des {
+  box-sizing: border-box;
+  padding: 0 0.1rem;
+  width: 3.2rem;
+  height: 0.8rem;
+  margin: 0rem 0.1rem;
+  background-color: #f2f4fa;
+  border: none;
+  border-radius: 0.05rem;
+  font-size: 0.22rem;
+  line-height: 0.36rem;
+  color: #8f8e8e;
+}
+
+section .list li a .price {
+  display: block;
+  padding-left: 0.1rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.26rem;
+  color: #f95c5e;
+}
+
+/*------------------底部分页----------------*/
+.pages {
+  max-width: 0.74rem;
+  height: 0.36rem;
+  border-radius: 0.12rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 1.04rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-size: 0.18rem;
+  text-align: center;
+  line-height: 0.36rem;
+  color: #fff;
+}
+

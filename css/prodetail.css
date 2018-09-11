@@ -1,0 +1,234 @@
+/*--------------头部大图片--------------*/
+.bigImg {
+  width: 100%;
+  height: 3.9rem;
+  position: relative;
+}
+
+.bigImg img {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+.bigImg a span {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  top: 0.4rem;
+  border-radius: 50%;
+}
+
+.bigImg a .return_button {
+  left: 0.24rem;
+  background: url("../images/return_botton.png") no-repeat center;
+  background-size: 0.23rem 0.38rem;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.bigImg a .news {
+  right: 0.24rem;
+  background: url("../images/news.png") no-repeat center;
+  background-size: 0.36rem 0.36rem;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.bigImg .tishi {
+  display: none;
+  position: absolute;
+  top: 0.99rem;
+  right: 0.1rem;
+  margin: auto;
+  width: 1.99rem;
+  height: 3.06rem;
+  background: url("../images/tishi.png") no-repeat;
+  background-size: 1.99rem 3.06rem;
+  padding-top: 0.16rem;
+  z-index: 88888;
+}
+.bigImg .tishi.block {
+  display: block;
+}
+.bigImg .tishi li {
+  width: 100%;
+  height: 0.7rem;
+  position: relative;
+}
+.bigImg .tishi li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.28rem;
+  color: #fff;
+}
+
+
+/*-------------------商标名称价格----------------*/
+.name-price {
+  padding: 0.24rem;
+  background-color: #fff;
+}
+
+.name-price .name {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.34rem;
+}
+
+.name-price .price {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.3rem;
+  color: #f96b6d;
+}
+
+/*-------------------商标信息----------------*/
+.msg h2 {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  font-size: 0.32rem;
+  padding: 0.24rem;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 0.2rem solid #f0f0f0;
+}
+
+.msg .detail {
+  padding: 0.1rem 0.24rem;
+}
+
+.msg .detail p {
+  height: 0.42rem;
+  line-height: 0.42rem;
+  font-size: 0.28rem;
+  color: #6c6c6c;
+}
+
+/*-----------------使用范围--------------*/
+.usage h2 {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  font-size: 0.32rem;
+  padding: 0.24rem;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 0.2rem solid #f0f0f0;
+}
+
+.usage .des {
+  padding: 0.1rem 0.24rem;
+  font-size: 0.28rem;
+}
+
+.usage .des {
+  line-height: 0.42rem;
+  color: #6c6c6c;
+}
+
+/*----------------商品详情和品牌寓意-----------------*/
+/*商品详情和品牌寓意标题*/
+.detail-moral h3 {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 0.2rem solid #f0f0f0;
+  font-size: 0.3rem;
+}
+
+.detail-moral h3 span {
+  padding: 0 0.2rem;
+  margin: 0 0.9rem;
+}
+
+.detail-moral h3 span.active {
+  border-bottom: 2px solid #f96b6d;
+}
+
+.detail-moral h3 .detail-h {
+  float: left;
+}
+
+.detail-moral h3 .moral-h {
+  float: right;
+}
+
+/*商品详情内容*/
+.detail-moral .content .detail-c {
+  padding: 0.3rem;
+  margin-bottom: 1.4rem;
+}
+
+.detail-moral .content .detail-c img {
+  width: 100%;
+  height: 4.58rem;
+}
+
+.detail-moral .content .detail-c h4 {
+  line-height: 0.6rem;
+  font-size: 0.32rem;
+  font-weight: normal;
+}
+
+.detail-moral .content .detail-c p {
+  line-height: 0.48rem;
+  font-size: 0.28rem;
+  color: #777777;
+}
+
+.detail-moral .content .detail-c ul li {
+  width: 100%;
+  height: 2.8rem;
+  margin-top: 0.14rem;
+}
+
+.detail-moral .content .detail-c ul li img {
+  width: 100%;
+  height: 2.8rem;
+}
+
+/*品牌寓意内容*/
+.detail-moral .content .moral-c {
+  padding: 0.3rem;
+  display: none;
+  margin-bottom: 1.70rem;
+}
+
+.detail-moral .content .moral-c p {
+  line-height: 0.48rem;
+  font-size: 0.28rem;
+  color: #777777;
+}
+
+/*--------------------咨询客服----------------*/
+.consult {
+  width: 100%;
+  height: 1rem;
+  background-color: #f96b6d;
+  position: fixed;
+  bottom: 0;
+}
+
+.consult a {
+  display: block;
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.34rem;
+  color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+/*---------------头部 分类查询-------------*/
+header {
+  width: 100%;
+  height: 1rem;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+header .left {
+  width: 0.94rem;
+  height: 100%;
+  float: left;
+  background: url("../images/return_botton.png") no-repeat center center;
+  background-size: 0.23rem 0.41rem;
+}
+
+header .left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header .right {
+  height: 100%;
+  margin-left: 0.94rem;
+}
+
+header .right p {
+  height: 100%;
+  line-height: 1rem;
+  font-size: 0.36rem;
+  text-align: center;
+  text-indent: -0.94rem;
+}
+
+/*---------------热门精品商标-------------*/
+.hot {
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+/*标题*/
+.hot .hot-header {
+  height: 1rem;
+}
+
+.hot .hot-header .left {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  text-indent: 2rem;
+}
+
+.hot .hot-header .left h1 {
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+
+.hot .hot-header .right {
+  float: right;
+}
+
+.hot .hot-header .right span {
+  display: block;
+  width: 2rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.26rem;
+  color: #3069b8;
+}
+
+/*列表*/
+.hot .hot-list {
+  padding: 0 0.08rem 0.6rem 0.08rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.hot .hot-list ul li {
+  width: 23.8%;
+  margin: 0.6%;
+  height: 2rem;
+  float: left;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.hot .hot-list ul li a div {
+  height: 1.5rem;
+  width: 100%;
+}
+
+.hot .hot-list ul li a div img {
+  height: 100%;
+  width: 100%;
+}
+
+.hot .hot-list ul li a p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.24rem;
+  color:#000;
+}
+
+/*------------------底部导航----------------*/
+footer {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+
+footer ul {
+  height: 1rem;
+}
+
+footer ul li {
+  width: 20%;
+  height: 1rem;
+  float: left;
+  text-align: center;
+  font-size: 0.22rem;
+  margin-top: 0.1rem;
+}
+
+footer ul li a {
+  display: block;
+  height: 1rem;
+  color: #636363;
+}
+
+footer ul li.nav1 {
+  background: url("../images/nav1.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav1.active {
+  background: url("../images/nav1-1.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav1.active a {
+  color: #fd5859;
+}
+
+footer ul li.nav2 {
+  background: url("../images/nav2.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav2.active {
+  background: url("../images/nav2-2.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav2.active a {
+  color: #fd5859;
+}
+
+footer ul li.nav3 {
+  background: url("../images/nav3.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav3.active {
+  background: url("../images/nav3-3.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav3.active a {
+  color: #fd5859;
+}
+
+footer ul li.nav4 {
+  background: url("../images/nav4.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav4.active {
+  background: url("../images/nav4-4.png") no-repeat center top;
+  background-size: 0.4rem 0.4rem;
+}
+
+footer ul li.nav4.active a {
+  color: #fd5859;
+}
+
+footer ul li.nav5 {
+  background: url("../images/nav5.png") no-repeat center top;
+  background-size: 0.7rem 0.4rem;
+}
+
+footer ul li.nav5.active {
+  background: url("../images/nav5-5.png") no-repeat center top;
+  background-size: 0.7rem 0.4rem;
+}
+
+footer ul li.nav5.active a {
+  color: #fd5859;
+}
+
+
